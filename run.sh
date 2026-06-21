@@ -8,9 +8,9 @@ cat <<EOF > ~/.config/rclone/rclone.conf
 [supabase]
 type = s3
 provider = Other
-access_key_id = ${SUPABASE_PROJECT_ID}
-secret_access_key = ${SUPABASE_SECRET_KEY}
-endpoint = https://${SUPABASE_PROJECT_ID}.supabase.co/storage/v1/s3
+access_key_id = $qxzhrmpijtsmovcodmzr
+secret_access_key = $sb_secret_GDMbj6xF4wv16KmUUXHPvA_UlXQBpdg
+endpoint = https://$qxzhrmpijtsmovcodmzr.supabase.co/storage/v1/s3
 region = us-east-1
 EOF
 
